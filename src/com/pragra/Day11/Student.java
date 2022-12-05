@@ -6,6 +6,15 @@ public class Student extends Object {
     String name;
     int grade;
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", grade=" + grade +
+                '}';
+    }
+
     public Student(){
 super();
         System.out.println("Default Constructor");

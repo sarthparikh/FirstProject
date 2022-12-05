@@ -7,6 +7,6 @@ public class Constructor {
         Circle c=new Circle();
         c.CalcCircumference();
         Student st1= new Student(1,"w",3);
-
+        System.out.println(st1);
     }
 }
